@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.12.9 on win32)" generated="2026-06-01T22:52:17.991450" rpa="false" schemaversion="5">
+<suite id="s1" name="Bitpulse" source="C:\Users\Pedro Serpa\Downloads\Osmar-Teste\bitpulse">
+<suite id="s1-s1" name="Testes" source="C:\Users\Pedro Serpa\Downloads\Osmar-Teste\bitpulse\testes">
+<suite id="s1-s1-s1" name="Gate" source="C:\Users\Pedro Serpa\Downloads\Osmar-Teste\bitpulse\testes\gate.robot">
+<kw name="Inicializar Ambiente Web" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-01T22:52:18.484932" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000'.</msg>
+<msg time="2026-06-01T22:52:21.578812" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2026-06-01T22:52:21.578812" level="FAIL">OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</msg>
+<arg>${ENDERECO_URL}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2026-06-01T22:52:18.484932" elapsed="3.106580">OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2026-06-01T22:52:21.591512" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${CMB_PORTA}</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-06-01T22:52:21.591512" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-06-01T22:52:18.484932" elapsed="3.106580">OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</kw>
+<test id="s1-s1-s1-t1" name="Cenário 01: Validação do Circuito AND (True)" line="19">
+<status status="FAIL" start="2026-06-01T22:52:21.591512" elapsed="0.000000">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<test id="s1-s1-s1-t2" name="Cenário 02: Validação do Circuito OR (False)" line="24">
+<status status="FAIL" start="2026-06-01T22:52:21.591512" elapsed="0.000000">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<test id="s1-s1-s1-t3" name="Cenário 03: Validação do Circuito NOT (Inversão)" line="29">
+<status status="FAIL" start="2026-06-01T22:52:21.591512" elapsed="0.000000">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<test id="s1-s1-s1-t4" name="Cenário 04: Validação do Circuito XOR (Nulo)" line="34">
+<status status="FAIL" start="2026-06-01T22:52:21.591512" elapsed="0.000000">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<kw name="Encerrar Ambiente Web" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-01T22:52:21.591512" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-06-01T22:52:21.591512" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-06-01T22:52:18.044747" elapsed="3.546765">Suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</suite>
+<suite id="s1-s1-s2" name="Ieee754" source="C:\Users\Pedro Serpa\Downloads\Osmar-Teste\bitpulse\testes\ieee754.robot">
+<kw name="Iniciar Navegador No BitPulse" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-01T22:52:21.608047" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000'.</msg>
+<msg time="2026-06-01T22:52:22.403534" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2026-06-01T22:52:22.403534" level="FAIL">OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</msg>
+<arg>${ALVO_URL}</arg>
+<arg>${BROWSER_TYPE}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2026-06-01T22:52:21.608047" elapsed="0.796493">OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2026-06-01T22:52:22.404540" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${TXT_VALOR}</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2026-06-01T22:52:22.404540" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-06-01T22:52:21.606399" elapsed="0.799140">OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</kw>
+<test id="s1-s1-s2-t1" name="Cenário 01: Inserção de Número Positivo" line="17">
+<status status="FAIL" start="2026-06-01T22:52:22.405539" elapsed="0.000586">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<test id="s1-s1-s2-t2" name="Cenário 02: Inserção de Número Negativo" line="22">
+<status status="FAIL" start="2026-06-01T22:52:22.406125" elapsed="0.000000">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<test id="s1-s1-s2-t3" name="Cenário 03: Inserção do Limite Zero" line="27">
+<status status="FAIL" start="2026-06-01T22:52:22.406125" elapsed="0.000000">Parent suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</test>
+<kw name="Desligar Navegador" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-01T22:52:22.406125" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-06-01T22:52:22.406125" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-06-01T22:52:21.603063" elapsed="0.803062">Suite setup failed:
+OSError: [WinError 4551] Uma política de Controle de Aplicativo bloqueou este arquivo</status>
+</suite>
+<status status="FAIL" start="2026-06-01T22:52:18.044747" elapsed="4.361378"/>
+</suite>
+<status status="FAIL" start="2026-06-01T22:52:17.991450" elapsed="4.414675"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Bitpulse" id="s1" pass="0" fail="7" skip="0">Bitpulse</stat>
+<stat name="Testes" id="s1-s1" pass="0" fail="7" skip="0">Bitpulse.Testes</stat>
+<stat name="Gate" id="s1-s1-s1" pass="0" fail="4" skip="0">Bitpulse.Testes.Gate</stat>
+<stat name="Ieee754" id="s1-s1-s2" pass="0" fail="3" skip="0">Bitpulse.Testes.Ieee754</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
